@@ -1,0 +1,21 @@
+body {}
+
+.first {
+  background-color: rgba(0, 0, 0, 1);
+
+  display: flex;
+  color: white;
+  font-family: roboto-regular;
+
+
+
+}
+
+@font-face {
+  font-family: mon;
+  src: url(/assets/fonts/Montserrat/Montserrat-Regular.ttf);
+}
+
+.first-one {
+  padding-left: 60px;
+}
