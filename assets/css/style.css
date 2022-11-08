@@ -1,4 +1,6 @@
-body {}
+body {
+  background-color: rgba(255, 255, 255, 1);
+}
 
 .first {
   background-color: rgba(0, 0, 0, 1);
@@ -12,13 +14,10 @@ body {}
 }
 
 @font-face {
-  font-family: mon;
-  src: url(/assets/fonts/Montserrat/Montserrat-Regular.ttf);
-  font-family: moon;
-  src: url(/assets/fonts/Montserrat/Montserrat-SemiBold.ttf);
-  font-family: bold;
-  src: url(/assets/fonts/Montserrat/Montserrat-Bold.ttf);
+  font-family: myFirstFont;
+  src: url(/assets/fonts/Montserrat/Montserrat-Light.ttf);
 }
+
 
 .first-one {
   padding-left: 60px;
@@ -50,7 +49,7 @@ i {
 }
 
 .second-three {
-  padding-left: 100px;
+  padding-left: 80px;
 }
 
 a {
@@ -68,9 +67,10 @@ a:hover {
 }
 
 .second {
-  font-family: poppins-light;
+  font-family: myFirstFont;
+  font-weight: bold;
   color: black;
-  padding-left: 90px;
+  padding-left: 80px;
   ;
 }
 
@@ -88,7 +88,8 @@ a:hover {
 }
 
 .third-one {
-  font-family: moon;
+  font-family: myFirstFont;
+  font-weight: bold;
   height: 116px;
   font-size: 50px;
 
