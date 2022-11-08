@@ -26,7 +26,7 @@ body {}
 
 .second-four {
   display: flex;
-  padding-left: 120px;
+  padding-left: 190px;
 }
 
 .second-one {
@@ -80,7 +80,7 @@ a:hover {
 
 .third {
   background-image: url(/img/bg\ photo.png);
-  height: 803px;
+  height: 703px;
   width: 1350;
   padding-top: 278px;
   padding-left: 300px;
