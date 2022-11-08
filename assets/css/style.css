@@ -16,6 +16,8 @@ body {}
   src: url(/assets/fonts/Montserrat/Montserrat-Regular.ttf);
   font-family: moon;
   src: url(/assets/fonts/Montserrat/Montserrat-SemiBold.ttf);
+  font-family: bold;
+  src: url(/assets/fonts/Montserrat/Montserrat-Bold.ttf);
 }
 
 .first-one {
@@ -68,8 +70,47 @@ a:hover {
 .second {
   font-family: poppins-light;
   color: black;
-  padding-left: 85px;
+  padding-left: 90px;
   ;
+}
+
+.homepage-slider {
+  display: flex;
+}
+
+.third {
+  background-image: url(/img/bg\ photo.png);
+  height: 803px;
+  width: 1350;
+  padding-top: 278px;
+
+}
+
+.third-one {
+  font-family: moon;
+  height: 116px;
+  font-size: 50px;
+
+}
+
+.third-two {
+  padding-right: 130px;
+}
+
+p {
+  font-size: 16px;
+  padding-left: 160px;
+  color: #333333;
+}
+
+.third-three {
+  padding-left: 160px;
+
+}
+
+button {
+  background-image: url(/img/Buton.png);
+  height: 37px;
 }
 
 @media screen and (max-width: 992px) {
