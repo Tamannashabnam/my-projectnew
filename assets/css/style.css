@@ -14,8 +14,57 @@ body {}
 @font-face {
   font-family: mon;
   src: url(/assets/fonts/Montserrat/Montserrat-Regular.ttf);
+  font-family: moon;
+  src: url(/assets/fonts/Montserrat/Montserrat-SemiBold.ttf);
 }
 
 .first-one {
+  padding-left: 60px;
+}
+
+.second-four {
+  display: flex;
+  padding-left: 100px;
+}
+
+.second-one {
+  background-color: rgba(255, 255, 255, 1);
+
+}
+
+.second-five {
+  display: flex;
+  padding-left: 500px;
+}
+
+i {
+  padding-left: 30px;
+}
+
+.second-two {
+  display: flex;
+}
+
+.second-three {
+  padding-left: 150px;
+}
+
+a {
+  padding-left: 50px;
+  text-decoration: none;
+  height: 11px;
+  font-family: moon;
+  color: grey;
+}
+
+a:hover {
+  color: #3CB878;
+  text-decoration: none;
+
+}
+
+.second {
+  font-family: poppins-light;
+  color: black;
   padding-left: 60px;
 }
