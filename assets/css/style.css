@@ -7,7 +7,8 @@ body {
 
   display: flex;
   color: white;
-  font-family: roboto-regular;
+  font-family: myFirstFont;
+
 
 
 
@@ -15,12 +16,12 @@ body {
 
 @font-face {
   font-family: myFirstFont;
-  src: url(/assets/fonts/Montserrat/Montserrat-Light.ttf);
+  src: url(/assets/fonts/Montserrat/Montserrat-Regular.ttf);
 }
 
 
 .first-one {
-  padding-left: 60px;
+  padding-left: 30px;
 }
 
 .second-four {
@@ -36,8 +37,8 @@ body {
 
 .second-five {
   display: flex;
-  padding-left: 500px;
-  padding-right: 30px;
+  padding-left: 600px;
+
 }
 
 
@@ -51,11 +52,11 @@ i {
 }
 
 .second-three {
-  padding-left: 90px;
+  padding-left: 30px;
 }
 
 a {
-  padding-left: 20px;
+  padding-left: 50px;
   text-decoration: none;
   height: 11px;
   font-family: myFirstFont;
