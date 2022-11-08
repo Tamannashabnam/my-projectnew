@@ -24,7 +24,7 @@ body {}
 
 .second-four {
   display: flex;
-  padding-left: 100px;
+  padding-left: 120px;
 }
 
 .second-one {
@@ -37,6 +37,8 @@ body {}
   padding-left: 500px;
 }
 
+
+
 i {
   padding-left: 30px;
 }
@@ -46,7 +48,7 @@ i {
 }
 
 .second-three {
-  padding-left: 150px;
+  padding-left: 100px;
 }
 
 a {
@@ -66,5 +68,9 @@ a:hover {
 .second {
   font-family: poppins-light;
   color: black;
-  padding-left: 60px;
+  padding-left: 85px;
+  ;
 }
+
+@media screen and (max-width: 992px) {
+  body {}
