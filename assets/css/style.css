@@ -83,6 +83,7 @@ a:hover {
   height: 803px;
   width: 1350;
   padding-top: 278px;
+  padding-left: 300px;
 
 }
 
@@ -99,7 +100,7 @@ a:hover {
 
 p {
   font-size: 16px;
-  padding-left: 160px;
+
   color: #333333;
 }
 
