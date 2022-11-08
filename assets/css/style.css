@@ -25,17 +25,19 @@ body {
 
 .second-four {
   display: flex;
-  padding-left: 190px;
+  padding-left: 170px;
 }
 
 .second-one {
   background-color: rgba(255, 255, 255, 1);
+  padding-right: 30px;
 
 }
 
 .second-five {
   display: flex;
   padding-left: 500px;
+  padding-right: 30px;
 }
 
 
@@ -49,14 +51,14 @@ i {
 }
 
 .second-three {
-  padding-left: 80px;
+  padding-left: 90px;
 }
 
 a {
-  padding-left: 50px;
+  padding-left: 20px;
   text-decoration: none;
   height: 11px;
-  font-family: moon;
+  font-family: myFirstFont;
   color: grey;
 }
 
