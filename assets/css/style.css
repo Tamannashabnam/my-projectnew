@@ -7,7 +7,7 @@ body {
 
   display: flex;
   color: white;
-  font-family: myFirstFont;
+  font-family: Montserrat-Regular;
 
 
 
@@ -15,10 +15,13 @@ body {
 }
 
 @font-face {
-  font-family: myFirstFont;
+  font-family: Montserrat-Regular;
   src: url(/assets/fonts/Montserrat/Montserrat-Regular.ttf);
 }
 
+.first-one-one {
+  padding-left: 40px;
+}
 
 .first-one {
   padding-left: 30px;
@@ -26,7 +29,7 @@ body {
 
 .second-four {
   display: flex;
-  padding-left: 170px;
+  padding-left: 160px;
 }
 
 .second-one {
@@ -37,7 +40,7 @@ body {
 
 .second-five {
   display: flex;
-  padding-left: 600px;
+  padding-left: 570px;
 
 }
 
@@ -59,7 +62,7 @@ a {
   padding-left: 50px;
   text-decoration: none;
   height: 11px;
-  font-family: myFirstFont;
+  font-family: Montserrat-Regular;
   color: grey;
 }
 
@@ -70,10 +73,10 @@ a:hover {
 }
 
 .second {
-  font-family: myFirstFont;
+  font-family: Montserrat-Regular;
   font-weight: bold;
   color: black;
-  padding-left: 80px;
+  padding-left: 70px;
   ;
 }
 
@@ -91,7 +94,7 @@ a:hover {
 }
 
 .third-one {
-  font-family: myFirstFont;
+  font-family: Montserrat-Regular;
   font-weight: bold;
   height: 116px;
   font-size: 50px;
@@ -116,6 +119,45 @@ p {
 button {
   background-image: url(/img/Buton.png);
   height: 37px;
+}
+
+.five {
+  padding-left: 20px;
+  font-family: Montserrat-Regular;
+  font-weight: bolder;
+}
+
+.five-one {
+  color: #3CB878;
+}
+
+.new {}
+
+.hight {
+  padding-right: 50px;
+}
+
+.five-two-one {
+  padding-left: 30px;
+
+
+}
+
+.i-one {
+  padding-left: 5px;
+  color: #FF9600;
+}
+
+
+.six {
+  color: red;
+}
+
+
+
+.six:hover {
+  visibility: visible;
+  color: #FF9600;
 }
 
 @media screen and (max-width: 992px) {
