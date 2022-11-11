@@ -168,36 +168,6 @@ button {
   height: 350px;
 }
 
-.item-1 {
-  background-color: rgba(245, 246, 249, 1);
-  width: 482px;
-  height: 103px;
-  padding-left: 80px;
-  padding-right: 20px;
-}
-
-.item-2 {
-  background-color: rgba(245, 246, 249, 1);
-  width: 482px;
-  height: 103px;
-  padding-left: 80px;
-}
-
-.item-3 {
-  background-color: rgba(245, 246, 249, 1);
-  width: 482px;
-  height: 103px;
-  padding-left: 80px;
-}
-
-.item-4 {
-  background-color: rgba(245, 246, 249, 1);
-  width: 482px;
-  height: 103px;
-  padding-left: 80px;
-  padding-right: 10px;
-}
-
 
 
 @media screen and (max-width: 992px) {
