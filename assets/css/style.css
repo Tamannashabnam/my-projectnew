@@ -3,6 +3,11 @@
   src: url(../fonts/Montserrat/Montserrat-Regular.ttf);
 }
 
+@font-face {
+  font-family: poppins-Black;
+  src: url(../fonts/Poppins/Poppins-Regular.ttf);
+}
+
 body {
   background-color: rgba(255, 255, 255, 1);
 }
@@ -119,14 +124,11 @@ p {
 
 }
 
-button {
-  background-image: url(/img/Buton.png);
-  height: 37px;
-}
+.button {}
 
 .five {
   padding-left: 20px;
-  font-family: Montserrat-Regular;
+  font-family: poppins-Black;
   font-weight: bolder;
 }
 
@@ -168,7 +170,19 @@ button {
   height: 350px;
 }
 
+.eight {
+  font-family: poppins-Black;
+  font-weight: bold;
+  size: 30px;
+  text-align: center;
 
+}
+
+.eight-one {
+  padding-top: 50px;
+  padding-left: 20px;
+  padding-right: 30px;
+}
 
 @media screen and (max-width: 992px) {
   body {}
