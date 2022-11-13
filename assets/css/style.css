@@ -227,6 +227,40 @@ p {
 .eleven-one-one {
   border-right: 1px solid rgba(238, 238, 238, 1);
   border-left: 1px solid rgba(238, 238, 238, 1);
+  border-bottom: 1px solid rgba(238, 238, 238, 1);
+
+  padding-right: 20px;
+
+}
+
+.col-4 {
+  font-family: poppins-regular;
+  width: 130px;
+  size: 11px;
+}
+
+.twelve {
+  font-family: poppins-regular;
+}
+
+.contact {
+  padding-right: 90px;
+}
+
+.last {
+  color: rgba(60, 184, 120, 1);
+}
+
+.foot {
+  background-color: #000000;
+  color: #777777;
+  padding-left: 300px;
+  font-size: 14px;
+
+}
+
+.foote {
+  padding-left: 200px;
 }
 
 @media screen and (max-width: 992px) {
