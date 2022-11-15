@@ -4,12 +4,20 @@
 }
 
 @font-face {
+  font-family: Roboto-Regular;
+  src: url(../fonts/Roboto/Roboto-Regular.ttf)
+}
+
+@font-face {
   font-family: poppins-regular;
   src: url(../fonts/Poppins/Poppins-Regular.ttf);
 }
 
 body {
   background-color: rgba(255, 255, 255, 1);
+
+  overflow-x: hidden;
+  /* Hide horizontal scrollbar */
 }
 
 .first {
@@ -43,6 +51,7 @@ body {
   background-color: rgba(255, 255, 255, 1);
   padding-right: 40px;
 
+
 }
 
 .second-five {
@@ -70,7 +79,7 @@ a {
   padding-left: 50px;
   text-decoration: none;
   height: 11px;
-  font-family: Montserrat-Regular;
+  font-family: Roboto-Regular;
   color: grey;
 }
 
@@ -261,6 +270,21 @@ p {
 
 .foote {
   padding-left: 200px;
+}
+
+.a1 {
+  font-family: Roboto-Regular;
+  size: 8px;
+  color: #000000;
+}
+
+.a1:hover {
+  color: #3CB878;
+}
+
+.shop-one {
+  padding-left: 20px;
+  padding-top: 30px;
 }
 
 @media screen and (max-width: 992px) {
