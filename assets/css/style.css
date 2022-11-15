@@ -287,5 +287,16 @@ p {
   padding-top: 30px;
 }
 
+.cart {
+  text-align: right;
+  font-family: Roboto-Regular;
+  font-size: 14px;
+}
+
+.cart-one {
+  background-color: #3CB878;
+  color: white;
+}
+
 @media screen and (max-width: 992px) {
   body {}
