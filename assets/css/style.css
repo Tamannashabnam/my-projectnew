@@ -298,5 +298,23 @@ p {
   color: white;
 }
 
+.part-3 {
+  margin-left: 50px;
+}
+
+.star {
+  color: #3CB878;
+  gap: 0px;
+}
+
+.star-1 {
+  font-size: 11px;
+  gap: 3px;
+}
+
+.cart-2:hover {
+  background-color: #3CB878;
+}
+
 @media screen and (max-width: 992px) {
   body {}
