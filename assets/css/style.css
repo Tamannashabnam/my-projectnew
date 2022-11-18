@@ -327,6 +327,9 @@ p {
 
 .shop-checkout-3 {
   text-align: justify;
+  color: white;
+  background-color: #3CB878;
+  border: #3CB878;
 }
 
 br {
