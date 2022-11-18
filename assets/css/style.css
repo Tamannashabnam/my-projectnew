@@ -316,5 +316,22 @@ p {
   background-color: #3CB878;
 }
 
+.shop-checkout {
+  color: red;
+}
+
+.shop-checkout-1 {
+  background-color: rgba(163, 162, 163, 1);
+
+}
+
+.shop-checkout-3 {
+  text-align: justify;
+}
+
+br {
+  border-color: aquamarine;
+}
+
 @media screen and (max-width: 992px) {
   body {}
