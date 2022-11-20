@@ -75,7 +75,7 @@ i {
 }
 
 
-a {
+.second-three-a {
   padding-left: 50px;
   text-decoration: none;
   height: 11px;
@@ -83,7 +83,7 @@ a {
   color: grey;
 }
 
-a:hover {
+.second-three-a:hover {
   color: #3CB878;
   text-decoration: none;
 
