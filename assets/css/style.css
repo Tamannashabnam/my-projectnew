@@ -326,14 +326,44 @@ p {
 }
 
 .shop-checkout-3 {
-  text-align: justify;
+
   color: white;
   background-color: #3CB878;
   border: #3CB878;
+
+}
+
+.shop-checkout-4 {
+  display: flex;
+  justify-content: flex-end;
 }
 
 br {
   border-color: aquamarine;
+}
+
+.shop-grid {
+
+  border-bottom: 2px solid grey;
+}
+
+.shop-grid-one {
+  border: 2px solid grey;
+}
+
+.shop-checkout-5 {
+  height: 33px;
+
+}
+
+.shop-checkout-5:hover {
+  background-color: #3CB878;
+  color: white;
+}
+
+.shop-grid-5 {
+  border-bottom: 2px solid grey;
+
 }
 
 @media screen and (max-width: 992px) {
