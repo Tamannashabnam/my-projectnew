@@ -62,7 +62,7 @@ body {
 
 
 
-i {
+.second-five-i {
   padding-left: 30px;
 }
 
@@ -82,6 +82,12 @@ i {
   font-family: Roboto-Regular;
   color: grey;
 }
+
+.pagination {
+  justify-content: center;
+}
+
+
 
 .second-three-a:hover {
   color: #3CB878;
@@ -133,7 +139,7 @@ p {
 
 }
 
-.button {}
+
 
 .five {
   padding-left: 20px;
@@ -364,6 +370,19 @@ br {
 .shop-grid-5 {
   border-bottom: 2px solid grey;
 
+}
+
+.teen {
+  color: #777777;
+}
+
+.teen-btn {
+  background-color: #FFFFFF;
+  justify-content: center;
+}
+
+.teen-btn:hover {
+  background-color: #3CB878;
 }
 
 @media screen and (max-width: 992px) {
