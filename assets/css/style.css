@@ -385,5 +385,18 @@ br {
   background-color: #3CB878;
 }
 
+.review {
+  font-family: poppins-regular;
+  font-weight: bold;
+}
+
+.i-one-i {
+  height: 2px;
+}
+
+.review-one {
+  font-size: 15px;
+}
+
 @media screen and (max-width: 992px) {
   body {}
